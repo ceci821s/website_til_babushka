@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  line-height: 1.6rem;
+  /* text-align: center; */
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  /* margin-top: 20px; */
+}
+main {
+  margin: 20px;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* padding: 20px; */
+}
+
+article {
+  padding: 20px;
+  border: solid #334a5a27;
+  /* background-color: rgba(128, 128, 128, 0.322); */
+  margin: 10px;
+  border-radius: 5px;
+}
+article:hover {
+  background-color: #334a5a46;
+}
+
+.overskrift {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  font-size: 1rem;
+  gap: 50px;
+  background-color: #334a5a31;
+  padding: 20px;
+  color: black;
+  /* height: 700px; */
+}
+li {
+  font-family: "Raleway", sans-serif;
+  line-height: 2rem;
+  /* background-color: #334a5a80; */
+  /* padding: 30px; */
+}
+
+/* button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  place-content: right;
+} */
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  line-height: 3rem;
+  margin: 10px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  line-height: 2rem;
+  padding: 10px;
+}
+
+nav {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  font-family: "Manrope", sans-serif;
+  line-height: 2rem;
+  padding: 5px;
+  background-color: #334a5a70;
+  /* border: 5px #334a5ac5; */
+  border-radius: 10px;
+}
+
+button:hover {
+  /* border: 1px solid #334a5ada; */
+  border-radius: 5px;
+  background-color: #334a5a31;
+  /* font-size: large; */
+  /* font-weight: bold; */
+  font-family: "Manrope", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 100px; */
+  /* margin: 20px; */
+  background-color: #334a5a31;
+  padding: 20px;
+}
+
+.start {
+  background-color: #334a5ac5;
+  height: 550px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  color: white;
+  margin: 30px;
+  text-align: center;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+menu {
+  text-align: center;
+}
+.box {
+  background-color: #334a5ac5;
+  text-align: center;
+  padding: 20px;
+}

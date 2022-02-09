@@ -1,0 +1,19 @@
+#modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.527);
+  display: none;
+  left: 0;
+  top: 0;
+  overflow: scroll;
+}
+
+#modal article {
+  max-width: 650px;
+  /* display: flex;
+  justify-content: center; */
+  margin: 4rem auto;
+  border-radius: 12px;
+  background-color: white;
+}
